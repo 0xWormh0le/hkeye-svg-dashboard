@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  width: 1350px;
+  width: 1550px;
   margin: auto;
+  padding: 20px;
 }
 
 .App-logo {
@@ -42,15 +43,16 @@
 .background1 {
   width: 1000px;
   height: 400px;
-  background-color: RGB(215,217,217);
+  background-color: #d7d9d9;
   position: relative;
+
 }
 
 .background2 {
   width: 1000px;
   height: 300px;
   position: relative;
-  background-color: rgb(234, 236, 236);
+  background-color: #eaecec;
 }
 
 .header1 {
@@ -79,7 +81,10 @@
 
 .logo {
   display: block;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .logoShape {
@@ -100,9 +105,15 @@
   margin: auto;
 }
 
+.logoTitle {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .headerContent {
   display: flex;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .selectContent {
@@ -111,24 +122,26 @@
 }
 
 .headerRight {
-  right: 0px;
-  width: 300px;
+  margin-left: auto;
+  width: 600px;
 }
 
 .bodySide {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .greySide {
-
 }
 
 .greyBodySide {
-
+  margin: 0px 20px 10px 20px;
 }
 
 .bodyFooterSide {
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .greenSide {

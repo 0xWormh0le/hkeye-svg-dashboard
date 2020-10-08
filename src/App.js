@@ -105,7 +105,7 @@ function App() {
         </div>
         <div className="bodySide">
           <div className="greySide">
-            <div class="greyBodySide">
+            <div className="greyBodySide">
               <div className = 'background1'>
                 <Rectangle color = 'RGB(79, 167, 157)' x="15%" y="5%">START</Rectangle>
 
@@ -180,13 +180,14 @@ function App() {
           <div className="greenSide">
             <SkewedRect
               compName="greenTitle"
+              style={{ marginBottom: '5px' }}
               title="Types of Review"
               variant='mediumText'
               textWidth={160}
             />
             <SkewedRect
               compName="small1"
-              style={{ display: 'flex' }}
+              style={{ display: 'flex', marginTop: '2px', marginBottom: '3px' }}
               title="Self-Monitoring Review"
               variant='smallSkew'
               textWidth={145}
@@ -200,7 +201,7 @@ function App() {
             />
             <SkewedRect
               compName="small2"
-              style={{ display: 'flex' }}
+              style={{ display: 'flex', marginTop: '2px', marginBottom: '3px' }}
               title="Manual Review"
               variant='smallSkew'
               textWidth={95}
@@ -214,7 +215,7 @@ function App() {
             />
             <SkewedRect
               compName="small3"
-              style={{ display: 'flex' }}
+              style={{ display: 'flex', marginTop: '2px', marginBottom: '3px' }}
               title="Peer Review"
               variant='smallSkew'
               textWidth={95}
@@ -228,7 +229,7 @@ function App() {
             />
             <SkewedRect
               compName="small4"
-              style={{ display: 'flex' }}
+              style={{ display: 'flex', marginTop: '2px', marginBottom: '3px' }}
               title="Technical Review"
               variant='smallSkew'
               textWidth={105}
@@ -242,7 +243,7 @@ function App() {
             />
             <SkewedRect
               compName="small5"
-              style={{ display: 'flex' }}
+              style={{ display: 'flex', marginTop: '2px', marginBottom: '3px' }}
               title="Production Review"
               variant='smallSkew'
               textWidth={120}
