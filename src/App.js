@@ -9,8 +9,9 @@ import Rectangle from './components/Rectangle'
 function App() {
   const Ystartpos_green = 215;
   return (
-      
+    <div style = {{display: 'flex'}}>
       <div className="App">
+
         <div className="headerSide">
           <div className="logo">
             <div className="logoShape">
@@ -275,6 +276,7 @@ function App() {
           />
         </div>
       </div>
+    </div>
   );
 }
 

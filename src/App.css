@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  width: 1550px;
   margin: auto;
   padding: 20px;
 }
@@ -41,16 +40,16 @@
 }
 
 .background1 {
-  width: 1000px;
-  height: 400px;
+  width: 860px;
+  height: 330px;
   background-color: #d7d9d9;
   position: relative;
 
 }
 
 .background2 {
-  width: 1000px;
-  height: 300px;
+  width: 860px;
+  height: 230px;
   position: relative;
   background-color: #eaecec;
 }
