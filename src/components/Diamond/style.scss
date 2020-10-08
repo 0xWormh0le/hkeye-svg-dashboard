@@ -1,0 +1,16 @@
+.diamond-shape {
+  position: absolute;
+  background: blue;
+  height: 70px;
+  text-align: center;
+  transform:rotate(45deg);
+	width:70px;
+}
+.item-count {
+  color: white;
+  display: table-cell;
+  height: 70px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+	width:70px;
+}
