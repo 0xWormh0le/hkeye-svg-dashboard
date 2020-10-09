@@ -34,6 +34,9 @@ export default () => (
       <Arrow x={427} y={365} length={11} direct="right" />
       <Arrow x={468} y={365} length={11} direct="right" />
       
-
+      
+      <text x="-20" y="310" fill="#5444a2" fontSize="20">♢</text>
+      <text x="450" y="377" fill="#5444a2" fontSize="30">*</text>
+      
     </svg>
 )

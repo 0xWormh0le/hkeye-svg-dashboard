@@ -4,10 +4,15 @@
   text-align: center;
   padding: 8px;
   color: white;
+  cursor: pointer;
   
 }
 
 .whiteBorder {
   border: 2px solid white;
   padding: 8px 10px;
+}
+
+.rectangle:hover {
+  opacity: 0.7;
 }

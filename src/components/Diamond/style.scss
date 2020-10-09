@@ -4,7 +4,8 @@
   height: 70px;
   text-align: center;
   transform:rotate(45deg);
-	width:70px;
+  width:70px;
+  cursor: pointer;
 }
 .item-count {
   color: white;
@@ -14,3 +15,8 @@
   vertical-align: middle;
 	width:70px;
 }
+
+.diamond-shape:hover {
+  opacity: 0.7;
+}
+
