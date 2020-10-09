@@ -62,7 +62,14 @@ export default () => (
     <SkewedRect
       id="text4"
       style={{ marginLeft: '30px' }}
-      title="Tech leads and code reviewers will utilize the Tech Lead Workbench to approve coding exemptions submitted by developers. If the exemption is rejected, tech leads will provide an explanation for the rejectoin, and help the developer understand the reasoning if necessary. Tech leads also hadve the authority to release transports which have non-compliant code. This may be necessary in emergencies, but is not encouraged, In addition to the techinal code review, tech leads will also ensure that the transports have no dependencies or errors prior to moving them to Q. This minimizes any disruption Resulting from missing artefacts, or objects that are open in other transports."
+      title="Tech leads and code reviewers will utilize the Tech Lead Workbench to approve coding exemptions submitted by developers. If the exemption is rejected, tech leads will provide an explanation for the rejectoin, and help the developer understand the reasoning if necessary. "
+      variant='smallText'
+      textWidth={320}
+    />
+    <SkewedRect
+      id="text4"
+      style={{ marginLeft: '30px', marginTop: '5px' }}
+      title="Tech leads also hadve the authority to release transports which have non-compliant code. This may be necessary in emergencies, but is not encouraged, In addition to the techinal code review, tech leads will also ensure that the transports have no dependencies or errors prior to moving them to Q. This minimizes any disruption Resulting from missing artefacts, or objects that are open in other transports."
       variant='smallText'
       textWidth={320}
     />

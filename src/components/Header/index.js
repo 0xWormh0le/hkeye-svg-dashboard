@@ -2,8 +2,9 @@ import React from 'react'
 import SkewedRect from "components/SkewedRect";
 import './style.scss';
 
-export default () => (
-  <>
+export default () => {
+  const handleItemClick = () => alert("Event")
+return (
     <div className="headerBody">
       <div className="headerContent">
         <SkewedRect
@@ -11,16 +12,20 @@ export default () => (
           title="1.Use transaction /hawkeye/APOD to review the code."
           variant='largeSkew'
           textWidth={310}
+          onClick={handleItemClick}
         />
         <SkewedRect
           id="largeSkew2"
+          style={{ marginRight: '0' }}
           title="2.If there are any errors or warnings follow one of the following processes:"
           variant='largeSkew'
           textWidth={350}
+          onClick={handleItemClick}
         />
         <div className="selectContent">
           <SkewedRect
             id="medium2A"
+            style={{ marginLeft: '25px' }}
             title="a:change the code so it's compliant"
             variant='mediumSkew'
             textWidth={235}
@@ -42,13 +47,16 @@ export default () => (
         <SkewedRect
           id="largeSkew3"
           title="3.When the code is 100% compliant generate the following documents:"
+          style={{ marginRight: '0' }}
           variant='largeSkew'
           textWidth={330}
+          onClick={handleItemClick}
         />
         <div className="selectContent">
           <SkewedRect
             id="medium3A"
             title="a:Compliance Report"
+            style={{ marginLeft: '25px' }}
             variant='mediumSkew'
             textWidth={140}
           />
@@ -66,5 +74,5 @@ export default () => (
         </div>
       </div>
     </div>
-  </>
-)
+  )
+}

@@ -8,8 +8,10 @@ import Footer from './components/Footer'
 import SVGLine from './components/SVGLine'
 import './App.scss';
 
+
 function App() {
   const Ystartpos_green = 215;
+
   return (
     <div style={{display: 'flex'}}>
       <div className="App">

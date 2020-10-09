@@ -2,8 +2,7 @@ import Arrow from 'components/Arrow'
 import React from 'react'
 import './style.scss'
 export default () => (
-  <>
-    <svg width="100%" height="100%" viewBox="0 0 1000 1000"  style={{ position:'absolute', left:'0', top:'0' }}>
+  <svg className="svg" width="100%" height="100%" viewBox="0 0 1000 1000" >
       <polyline points="45,112 45,170 105,170 105,330" style={{fill:'none',stroke:'#3382c5', strokeWidth:'2', strokeOpacity: '0.7'}} strokeDasharray="10,10"/>
       <polyline points="400,70 500,70" style={{fill:'none',stroke:'#3382c5', strokeWidth:'2', strokeOpacity: '0.7'}} strokeDasharray="10,10"/>
       <polyline points="700,100 700,130" style={{fill:'none',stroke:'#3382c5', strokeWidth:'2', strokeOpacity: '0.7'}} strokeDasharray="10,10"/>
@@ -37,5 +36,4 @@ export default () => (
       
 
     </svg>
-  </>
 )

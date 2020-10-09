@@ -1,6 +1,7 @@
 .SkewedRect {
   margin-left: 20px;
   margin-right: 20px; 
+  cursor: pointer;
   .parallelogram {
     transform: skew(-30deg); 
   }
@@ -47,6 +48,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    font-style: italic;
+  }
+
+  .largeSkew:hover {
+    opacity: 0.7;
   }
 
   .mediumSkew {
@@ -82,6 +88,7 @@
   .smallText {
     font-size: 11.5px;
     color: #4fa79d;
+    font-style: italic;
   }
   
   .oppoSkewedRect {
