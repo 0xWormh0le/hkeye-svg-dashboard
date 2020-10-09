@@ -10,6 +10,24 @@
 
 }
 
+.sign1 {
+    position: absolute;
+    left: 145px;
+    top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5444a2;
+}
+
+.sign2 {
+    position: absolute;
+    left: 597px;
+    top: 120px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5444a2;
+}
+
 .background2 {
   width: 860px;
   height: 230px;
@@ -29,7 +47,7 @@
 
 .header2 {
   left: 0;
-  top: 20%;
+  top: 5%;
   font-size: 22px;
   position: absolute;
   color: RGB(254, 255, 254);
