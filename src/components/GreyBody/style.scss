@@ -1,0 +1,37 @@
+.greyBodySide {
+  margin: 0px 20px 20px 20px;
+}
+
+.background1 {
+  width: 860px;
+  height: 330px;
+  background-color: #d7d9d9;
+  position: relative;
+
+}
+
+.background2 {
+  width: 860px;
+  height: 230px;
+  position: relative;
+  background-color: #eaecec;
+}
+
+.header1 {
+  left: 0;
+  top: 20%;
+  position: absolute;
+  font-size: 22px;
+  color: RGB(243, 245, 244);
+  transform: rotate(270deg) translate(-50%, -50%);
+}
+
+
+.header2 {
+  left: 0;
+  top: 20%;
+  font-size: 22px;
+  position: absolute;
+  color: RGB(254, 255, 254);
+  transform: rotate(270deg) translate(-50%, -50%);
+}

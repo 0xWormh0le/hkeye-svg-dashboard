@@ -1,15 +1,14 @@
 import React from 'react';
 import './style.scss';
 
-export default function SkewedRect({ compName, style, title, variant, textWidth, textDirection}) {
-  return (
-
-    <div id={ compName } className='SkewedRect' style={style}>
-      <div className={'parallelogram '+ variant }>
-        <p className={'skewedText ' + textDirection} style={{ width: textWidth }}>
-          { title }
-        </p>
-      </div>
+const SkewRect = ({ id, style, title, variant, textWidth, textDirection, sign}) => (
+  <div id={ id } className='SkewedRect' style={style}>
+    <div className={'parallelogram '+ variant }>
+      <p className={'skewedText ' + textDirection} style={{ width: textWidth }}>
+        {sign && <span className='SkewedRect__sign'>{sign}</span>}
+        { title }
+      </p>
     </div>
-  )
-}
+  </div>
+)
+export default  SkewRect

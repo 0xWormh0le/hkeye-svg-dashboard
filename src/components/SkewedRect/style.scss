@@ -5,6 +5,14 @@
     transform: skew(-30deg); 
   }
 
+  &__sign {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
   .logoShape1 {
     background-color: #3382c5;
     border: 2px solid #3382c5;
@@ -77,7 +85,7 @@
   }
   
   .oppoSkewedRect {
-    transform: skew(30deg)!important;
+    transform: skew(40deg)!important;
     background-color: #cbcae4;
     color: #5444a2;
     font-size: 15px;
@@ -85,9 +93,9 @@
   }
 
   .oppoText {
-    transform: skew(-30deg)!important;
-    padding-left: 15px;
-    padding-right: 10px;
+    transform: skew(-40deg)!important;
+    padding-left: 25px;
+    padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     
